@@ -13,47 +13,16 @@ namespace VendingMachineCode.Services
         public Dictionary<CoinTypes, int> acceptedCoins { get; set; }
         public Dictionary<CoinTypes, int> rejectedCoins { get; set; }
 
-        //public Dictionary<Coin, int>  insertedCoinsDetails { get; set; }
-        //public Dictionary<CoinTypes, int> insertedCoinTypesList { get; set; }
-        //public Dictionary<CoinTypes, int> availableCoins { get; set; }
-
         public CoinsService
-            (List<Coin> _insertedCoinsList
-             //, Dictionary<Coin, int> _insertedCoinsDetails
-
-            //,Dictionary<CoinTypes, int> _insertedCoinTypesList,
-            //Dictionary<CoinTypes, int> _acceptedCoins,
-            //Dictionary<CoinTypes, int> _rejectedCoins
-            //Dictionary<CoinTypes, int> _availableCoins,
-            )
+            (List<Coin> _insertedCoinsList )
         {
             insertedCoinsList = _insertedCoinsList;
             acceptedCoins = new Dictionary<CoinTypes, int>();
             rejectedCoins = new Dictionary<CoinTypes, int>();
 
-            //insertedCoinsDetails = _insertedCoinsDetails;
-
-            //insertedCoinTypesList = _insertedCoinTypesList;
-            //acceptedCoins = _acceptedCoins;
-            //rejectedCoins = _rejectedCoins;
-
-            //availableCoins = _availableCoins.Count > 0 ? _availableCoins :
-            //    new Dictionary<CoinTypes, int>() {
-            //        { CoinTypes.Quarters, 100 },
-            //        { CoinTypes.Dimes, 100 },
-            //        { CoinTypes.Nickels, 100 },
-            //        { CoinTypes.Pennies, 0 },
-            //    };
-
         }
 
-        //1) Insert  Coin > Valid or not
-        //    a) Valid : Set Value & Type
-        //    b) Reject Coin
-        //Dictionary<CoinTypes, int> _insertedCoinTypesList { get; set; }
-
-
-
+    
         private bool isValidCoinCheckBasedOnType(CoinTypes _coinType)
         {
             return CoinsDenominationList.CoinsList.Where(x => x.coinType == _coinType).FirstOrDefault().isValidCoin;
@@ -90,10 +59,8 @@ namespace VendingMachineCode.Services
 
 
 
-        //Method A - If input is list of Coins
 
         public void processInsertedCoinsList()
-            //(List<Coin> insertedCoinsList)
         {
             foreach (var coin in insertedCoinsList)
             {
@@ -128,71 +95,6 @@ namespace VendingMachineCode.Services
                 }
             }
         }
-
-
-        //Method 3 - Input is Dictionary of CoinTypes
-        //public void processInsertedCoinsList(Dictionary<CoinTypes, int> insertedCoinsList)
-        //{
-        //    foreach (var types in insertedCoinsList)
-        //    {
-        //        processInsertedCoin(types.Key)
-        //    }
-        //}
-
-        //public void processInsertedCoin(CoinTypes insertedCoin)
-        //{
-        //    CoinService coinService = new CoinService();
-        //    bool isValid = //insertedCoin.isValidCoin;
-        //    if (isValid)
-        //    {
-        //        if (!AcceptedCoins.ContainsKey(insertedCoin.coinType))
-        //        {
-        //            AcceptedCoins.Add(insertedCoin.coinType, 1);
-        //        }
-        //        else
-        //        {
-        //            Console.WriteLine("Username is taken!");
-        //        }
-        //    }
-        //    else
-        //    {
-
-        //    }
-        //}
-
-
-        //InCorrect - Delete later
-        //public void processInsertedCoinsDetails(Dictionary<Coin, int> insertedCoinsList)
-        //{
-        //    bool isValid = false;
-
-        //    foreach (var insertedCoin in insertedCoinsList)
-        //    {
-        //        isValid = isValidCoinCheckBasedOnType(insertedCoin.Key.coinType);
-        //        if (isValid)
-        //        {
-        //            if (!AcceptedCoins.ContainsKey(insertedCoin.Key.coinType))
-        //            {
-        //                AcceptedCoins.Add(insertedCoin.Key.coinType, 1);
-        //            }
-        //            else
-        //            {
-        //                AcceptedCoins[insertedCoin.Key.coinType] += insertedCoin.Value;
-        //            }
-        //        }
-        //        else
-        //        {
-        //            if (!RejectedCoins.ContainsKey(insertedCoin.Key.coinType))
-        //            {
-        //                RejectedCoins.Add(insertedCoin.Key.coinType, 1);
-        //            }
-        //            else
-        //            {
-        //                RejectedCoins[insertedCoin.Key.coinType] += insertedCoin.Value;
-        //            }
-        //        }
-        //    }
-        //}
 
     }
 }

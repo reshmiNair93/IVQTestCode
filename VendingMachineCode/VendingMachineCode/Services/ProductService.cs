@@ -90,7 +90,7 @@ namespace VendingMachineCode.Services
             }
         }
 
-        //public void UpdateProductCatalog(KeyValuePair<ProductTypes, int> product)
+        //private void UpdateProductCatalog(KeyValuePair<ProductTypes, int> product)
         //{
         //    _availableProducts[product.Key] -= product.Value;
         //}
