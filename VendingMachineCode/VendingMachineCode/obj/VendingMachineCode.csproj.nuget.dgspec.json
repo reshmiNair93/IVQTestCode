@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rnair42\\source\\repos\\VendingMachineCode\\VendingMachineCode\\VendingMachineCode.csproj": {}
+    "H:\\IVQ_Test\\IVQTestCode\\VendingMachineCode\\VendingMachineCode\\VendingMachineCode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rnair42\\source\\repos\\VendingMachineCode\\VendingMachineCode\\VendingMachineCode.csproj": {
+    "H:\\IVQ_Test\\IVQTestCode\\VendingMachineCode\\VendingMachineCode\\VendingMachineCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rnair42\\source\\repos\\VendingMachineCode\\VendingMachineCode\\VendingMachineCode.csproj",
+        "projectUniqueName": "H:\\IVQ_Test\\IVQTestCode\\VendingMachineCode\\VendingMachineCode\\VendingMachineCode.csproj",
         "projectName": "VendingMachineCode",
-        "projectPath": "C:\\Users\\rnair42\\source\\repos\\VendingMachineCode\\VendingMachineCode\\VendingMachineCode.csproj",
+        "projectPath": "H:\\IVQ_Test\\IVQTestCode\\VendingMachineCode\\VendingMachineCode\\VendingMachineCode.csproj",
         "packagesPath": "C:\\Users\\rnair42\\.nuget\\packages",
-        "outputPath": "C:\\Users\\rnair42\\source\\repos\\VendingMachineCode\\VendingMachineCode\\obj\\",
+        "outputPath": "H:\\IVQ_Test\\IVQTestCode\\VendingMachineCode\\VendingMachineCode\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -49,8 +49,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -59,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,14 +8,10 @@
           "System.Diagnostics.EventLog": "4.7.0"
         },
         "compile": {
-          "lib/netstandard2.1/Castle.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Castle.Core.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/Castle.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Castle.Core.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {
@@ -34,14 +30,10 @@
           "System.Security.Principal.Windows": "4.7.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {}
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
@@ -60,14 +52,10 @@
           "Castle.Core": "5.1.0"
         },
         "compile": {
-          "lib/netstandard2.1/Moq.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Moq.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/Moq.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Moq.dll": {}
         }
       },
       "NETStandard.Library/2.0.0": {
@@ -91,14 +79,10 @@
           "NETStandard.Library": "2.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/nunit.framework.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/nunit.framework.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/nunit.framework.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/nunit.framework.dll": {}
         },
         "build": {
           "build/NUnit.props": {}
@@ -112,14 +96,10 @@
           "System.Security.Principal.Windows": "4.7.0"
         },
         "compile": {
-          "ref/netstandard2.0/System.Diagnostics.EventLog.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/System.Diagnostics.EventLog.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Diagnostics.EventLog.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Diagnostics.EventLog.dll": {}
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.EventLog.dll": {
@@ -135,14 +115,10 @@
           "System.Security.Principal.Windows": "4.7.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.AccessControl.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
@@ -154,14 +130,10 @@
       "System.Security.Principal.Windows/4.7.0": {
         "type": "package",
         "compile": {
-          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {
-            "related": ".xml"
-          }
+          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
@@ -177,14 +149,10 @@
       "xunit.abstractions/2.0.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/xunit.abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/xunit.abstractions.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/xunit.abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/xunit.abstractions.dll": {}
         }
       },
       "xunit.extensibility.core/2.4.2": {
@@ -194,14 +162,10 @@
           "xunit.abstractions": "2.0.3"
         },
         "compile": {
-          "lib/netstandard1.1/xunit.core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.1/xunit.core.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.1/xunit.core.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.1/xunit.core.dll": {}
         }
       },
       "xunit.extensibility.execution/2.4.2": {
@@ -211,14 +175,10 @@
           "xunit.extensibility.core": "[2.4.2]"
         },
         "compile": {
-          "lib/netstandard1.1/xunit.execution.dotnet.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.1/xunit.execution.dotnet.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.1/xunit.execution.dotnet.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard1.1/xunit.execution.dotnet.dll": {}
         }
       },
       "VendingMachineCode/1.0.0": {
@@ -696,11 +656,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rnair42\\source\\repos\\VendingMachineCode\\TestCases\\TestCases.csproj",
+      "projectUniqueName": "H:\\IVQ_Test\\IVQTestCode\\VendingMachineCode\\TestCases\\TestCases.csproj",
       "projectName": "TestCases",
-      "projectPath": "C:\\Users\\rnair42\\source\\repos\\VendingMachineCode\\TestCases\\TestCases.csproj",
+      "projectPath": "H:\\IVQ_Test\\IVQTestCode\\VendingMachineCode\\TestCases\\TestCases.csproj",
       "packagesPath": "C:\\Users\\rnair42\\.nuget\\packages",
-      "outputPath": "C:\\Users\\rnair42\\source\\repos\\VendingMachineCode\\TestCases\\obj\\",
+      "outputPath": "H:\\IVQ_Test\\IVQTestCode\\VendingMachineCode\\TestCases\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -721,8 +681,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\rnair42\\source\\repos\\VendingMachineCode\\VendingMachineCode\\VendingMachineCode.csproj": {
-              "projectPath": "C:\\Users\\rnair42\\source\\repos\\VendingMachineCode\\VendingMachineCode\\VendingMachineCode.csproj"
+            "H:\\IVQ_Test\\IVQTestCode\\VendingMachineCode\\VendingMachineCode\\VendingMachineCode.csproj": {
+              "projectPath": "H:\\IVQ_Test\\IVQTestCode\\VendingMachineCode\\VendingMachineCode\\VendingMachineCode.csproj"
             }
           }
         }
@@ -756,8 +716,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -766,7 +725,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
