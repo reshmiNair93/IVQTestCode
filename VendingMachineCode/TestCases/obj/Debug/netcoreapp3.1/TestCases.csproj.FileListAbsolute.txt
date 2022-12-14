@@ -1,0 +1,5 @@
+C:\Users\rnair42\source\repos\VendingMachineCode\TestCases\obj\Debug\netcoreapp3.1\TestCases.csproj.AssemblyReference.cache
+C:\Users\rnair42\source\repos\VendingMachineCode\TestCases\obj\Debug\netcoreapp3.1\TestCases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rnair42\source\repos\VendingMachineCode\TestCases\obj\Debug\netcoreapp3.1\TestCases.AssemblyInfoInputs.cache
+C:\Users\rnair42\source\repos\VendingMachineCode\TestCases\obj\Debug\netcoreapp3.1\TestCases.AssemblyInfo.cs
+C:\Users\rnair42\source\repos\VendingMachineCode\TestCases\obj\Debug\netcoreapp3.1\TestCases.csproj.CoreCompileInputs.cache

@@ -1,0 +1,14 @@
+C:\Users\rnair42\source\repos\VendingMachineCode\VendingMachineCode\bin\Debug\netcoreapp3.1\VendingMachineCode.exe
+C:\Users\rnair42\source\repos\VendingMachineCode\VendingMachineCode\bin\Debug\netcoreapp3.1\VendingMachineCode.deps.json
+C:\Users\rnair42\source\repos\VendingMachineCode\VendingMachineCode\bin\Debug\netcoreapp3.1\VendingMachineCode.runtimeconfig.json
+C:\Users\rnair42\source\repos\VendingMachineCode\VendingMachineCode\bin\Debug\netcoreapp3.1\VendingMachineCode.runtimeconfig.dev.json
+C:\Users\rnair42\source\repos\VendingMachineCode\VendingMachineCode\bin\Debug\netcoreapp3.1\VendingMachineCode.dll
+C:\Users\rnair42\source\repos\VendingMachineCode\VendingMachineCode\bin\Debug\netcoreapp3.1\VendingMachineCode.pdb
+C:\Users\rnair42\source\repos\VendingMachineCode\VendingMachineCode\obj\Debug\netcoreapp3.1\VendingMachineCode.csproj.AssemblyReference.cache
+C:\Users\rnair42\source\repos\VendingMachineCode\VendingMachineCode\obj\Debug\netcoreapp3.1\VendingMachineCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rnair42\source\repos\VendingMachineCode\VendingMachineCode\obj\Debug\netcoreapp3.1\VendingMachineCode.AssemblyInfoInputs.cache
+C:\Users\rnair42\source\repos\VendingMachineCode\VendingMachineCode\obj\Debug\netcoreapp3.1\VendingMachineCode.AssemblyInfo.cs
+C:\Users\rnair42\source\repos\VendingMachineCode\VendingMachineCode\obj\Debug\netcoreapp3.1\VendingMachineCode.csproj.CoreCompileInputs.cache
+C:\Users\rnair42\source\repos\VendingMachineCode\VendingMachineCode\obj\Debug\netcoreapp3.1\VendingMachineCode.dll
+C:\Users\rnair42\source\repos\VendingMachineCode\VendingMachineCode\obj\Debug\netcoreapp3.1\VendingMachineCode.pdb
+C:\Users\rnair42\source\repos\VendingMachineCode\VendingMachineCode\obj\Debug\netcoreapp3.1\VendingMachineCode.genruntimeconfig.cache

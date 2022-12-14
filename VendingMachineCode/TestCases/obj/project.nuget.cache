@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "g+Cfpzdoowwny0eQmEfwSiiv6pRJY/2luAAYvD17jiLQ8M8haEAM6NqcSOm4hsuJ9f2eB4CONreE+WUy9ivKkA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rnair42\\source\\repos\\VendingMachineCode\\TestCases\\TestCases.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rnair42\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
+    "C:\\Users\\rnair42\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\rnair42\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\rnair42\\.nuget\\packages\\moq\\4.18.3\\moq.4.18.3.nupkg.sha512",
+    "C:\\Users\\rnair42\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\rnair42\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\rnair42\\.nuget\\packages\\system.diagnostics.eventlog\\4.7.0\\system.diagnostics.eventlog.4.7.0.nupkg.sha512",
+    "C:\\Users\\rnair42\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\rnair42\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\rnair42\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\rnair42\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
+    "C:\\Users\\rnair42\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512"
+  ],
+  "logs": []
+}
