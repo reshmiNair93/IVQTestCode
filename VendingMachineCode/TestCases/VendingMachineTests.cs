@@ -16,7 +16,14 @@ namespace TestCases
         Dictionary<CoinTypes, int> acceptedCoins;
         Dictionary<CoinTypes, int> rejectedCoins;
 
+        Dictionary<ProductTypes, int> requestedProducts;
+        Dictionary<ProductTypes, int> _availableProducts;
+
         List<Coin> insertedCoinsList;
+
+        Mock<ICoinsService> mockCoinsService;
+        Mock<IProductsService> mockProductService;
+        Mock<IResponsesService> mockResponseService;
 
         [SetUp]
         public void Setup()
@@ -44,6 +51,33 @@ namespace TestCases
             rejectedCoins = new Dictionary<CoinTypes, int>() {
                     { CoinTypes.Pennies, 1 }
                 };
+
+            _availableProducts =
+               new Dictionary<ProductTypes, int>() {
+                    { ProductTypes.Cola, 100 },
+                    { ProductTypes.Candy, 100 },
+                    { ProductTypes.Chips, 100 }
+                };
+            requestedProducts = new Dictionary<ProductTypes, int>() {
+                    { ProductTypes.Cola, 1 },
+                    { ProductTypes.Candy, 2 },
+                    { ProductTypes.Chips, 3 }
+                };
+
+            mockCoinsService = new Mock<ICoinsService>();
+            mockCoinsService.Setup(serv => serv.GetProcessedCoinsInfo(It.IsAny<string>())).Returns(acceptedCoins);
+            mockCoinsService.Setup(serv => serv.GetTotalAmount(It.IsAny<Dictionary<CoinTypes, int>>())).Returns(100.00f);
+
+            mockProductService = new Mock<IProductsService>();
+            mockProductService.Setup(serv => serv.GetTotalCostPrice(It.IsAny<Dictionary<ProductTypes, int>>())).Returns(100f);
+            mockProductService.Setup(serv => serv.GetProductPriceBasedOnType(It.IsAny<ProductTypes>())).Returns(100.00f);
+            mockProductService.Setup(serv => serv.ProcessProductsToDispense()).Returns(requestedProducts);
+
+            mockResponseService = new Mock<IResponsesService>();
+            mockResponseService.Setup(serv => serv.DisplayResponse(It.IsAny<string>(), It.IsAny<string>())).Returns("Insert Coins");
+            
+
+
         }
 
         [Test]
@@ -51,16 +85,12 @@ namespace TestCases
         {
 
             // Arrange
-            var mockCoinsService = new Mock<ICoinsService>();
-            mockCoinsService.Setup(serv => serv.GetProcessedCoinsInfo("Accepted")).Returns(acceptedCoins);
 
-            VendingMachine machine = new VendingMachine(insertedCoinsList);
+            VendingMachine machine = new VendingMachine(mockCoinsService.Object,mockProductService.Object,mockResponseService.Object);
             // Act
-            var result = machine.VendingMachineProcess();
+            machine.VendingMachineProcess();
 
             //Assert
-            Assert.IsNotNull(result);
-            Assert.AreEqual(result, acceptedCoins);
             return Task.CompletedTask;
         }
     }
